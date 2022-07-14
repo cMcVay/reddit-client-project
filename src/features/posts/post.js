@@ -1,16 +1,22 @@
 import React from "react";
+import './post.css';
 
 const Post = () => {
     return (
-        <>
-            <p>subreddit</p>
-            <h2>Headline</h2>
-            <p>image</p>
-            <p>author</p>
-            <p>posting time</p>
-            <p>comments icon that links to comments</p>
-            <p>number of comments</p>
-        </>
+        <div className="post">
+            <div className="topLine">
+                <p>NEWS</p>
+            </div>
+            <div className="headLine">
+                <h2>Headline</h2>
+                <p>image</p>
+            </div>
+            <div className="bottomLine">
+                <p id="poster">posted by</p>
+                <p id="timeStamp">posted time</p>
+                <p id="commentsLink">so many comments</p>
+            </div>
+        </div>
     )
 };
 

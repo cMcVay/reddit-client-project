@@ -1,0 +1,21 @@
+.post {
+    background-color: beige;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+}
+.bottomLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .post {
+      width: 94%;
+    }
+  }

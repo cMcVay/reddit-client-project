@@ -1,9 +1,12 @@
 import React from "react";
 import Post from "../../features/posts/post";
+import './main.css';
 
 const Main = () => {
     return (
-        <Post />
+        <div className="main">
+           <Post /> 
+        </div>
     )
 };
 
