@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/header';
+import React from 'react';
 
 function App() {
   return (
     <>
-    <header>
-      <p>Name, Logo, Search Bar</p>
+      <Header />
       <p>Navigation</p>
-    </header>
-    <main>
-      <p>list of articles</p>
-    </main>
+      <main>
+        <p>list of articles</p>
+      </main>
     </>
   );
 }

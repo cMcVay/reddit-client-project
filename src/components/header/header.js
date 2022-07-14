@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default header = () => {
+const Header = () => {
     return (
         <header>
             <h1> Connor's Reddit App</h1>
@@ -19,3 +19,5 @@ export default header = () => {
         </header>
     )
 };
+
+export default Header;
