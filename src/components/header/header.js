@@ -1,10 +1,13 @@
 import React from 'react';
+import './header.css'
 
 const Header = () => {
     return (
         <header>
-            <h1> Connor's Reddit App</h1>
-            <form>
+            <div className='sitetitle'>
+                <h1> Connor's Reddit App</h1>
+            </div>
+            <form className='search'>
                 <input 
                     type="search"
                     placeholder='subreddit'
