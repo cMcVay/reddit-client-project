@@ -1,0 +1,21 @@
+ul.subreddit {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0 10px 0 10 px;
+    overflow: auto;
+    background-color: rgb(115, 227, 227);
+    box-shadow: 0 5px 15px;
+}
+
+ul.subreddit li {
+    padding: 2px;
+}
+ul.subreddit li button {
+    text-decoration: none;
+    background-color: rgba(13, 18, 18, 0);
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
